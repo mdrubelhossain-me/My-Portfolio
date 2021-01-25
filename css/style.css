@@ -1,0 +1,293 @@
+body{
+	margin:auto ;
+	padding:auto;
+	height:5600px;
+	
+	background-image: url('../image/backgroundbody2.jpg');
+}
+.top{
+	
+	font-size:20px;
+	font-family:Segoe UI Black;
+	margin-left:150px;
+	padding-top:7px;
+
+}
+
+.top:hover{
+	width:75%;
+	border-top:solid 5px;
+	color:#F7592A;
+}
+.top a{
+	text-decoration:none;
+	color:#2E3A46;
+
+}
+.top a:hover{
+	text-decoration:none;
+	color:#F7592A;
+}
+
+
+
+
+
+.backgroundpf{
+	width:90%;
+	height:5420px;
+	background-color:#F5FAF9;
+	margin:auto;
+	margin-top:60px;
+	border-radius:50px 50px 0 0;
+}
+.backphoto{
+	width:80%;
+	height:400px;
+	background-image:url('../image/1.jpg');
+	margin:auto;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-radius:50px 50px 0 0 ;
+}
+
+
+.nav{
+	margin-left:570px;
+	padding:10px 0 0 10px;
+
+
+}
+.nav a{
+	padding:0 15px 0 0;
+	text-decoration:none;
+	color:#05457E;
+	font-size:20px;
+	font-family:Segoe UI Black;
+	
+}
+.nav a:hover{
+	color:white;
+	border-left:solid 3px;
+	border-color:white;
+}
+
+
+/*Profile Card Start*/
+.profile{
+	width:400px;
+	height:500px;
+	border-bottom: #F204AA solid 5px;
+	border-left: #F204AA solid 1px;
+	margin:auto;
+	margin-top:-120px;
+	background-color:white;
+	box-shadow:15px 10px 10px 0px ;
+	border-radius:30px 30px 0 0;
+
+
+}
+.profile img:hover{
+	transform: scale(2.3);
+	transition: 2s;
+	box-shadow:15px 10px 10px 0px ;
+
+}
+.profilephoto{
+	width:200px;
+	height:200px;
+	border-radius:105px;
+  	margin-top:-90px;
+  	margin-left:98px;
+ 	border-style:solid;
+ 	border-width:3px;
+  	border-color:#F65404;	
+}
+.details{
+	width: 80%;
+	margin-left: 40px;
+	font-size:15px;
+	font-family:Segoe UI Black;
+	text-align: justify;
+	
+}
+
+.icon i{
+	padding:10px 15px 5px  0 ;
+	margin-top:100px;
+}
+.icon i:hover{
+	color:#F204AA;
+	border-top:solid 5px;
+
+}
+/*Profile Card End*/
+
+
+
+/*Progress Start*/
+.progress{
+	width:700px;
+	height:30px;
+	padding-top:10px;
+	background-color:#F5FAF9;
+}
+/*Progress End*/
+
+
+
+/*Carousel Start*/
+.slidephoto{
+	margin-top:30px;
+	margin-left:130px;
+	width:80%;
+
+
+}
+.carousel-item{
+	height:250px;
+}
+/*Carousel End*/
+
+
+
+
+/*Skill start*/
+.skill{
+	
+	
+	margin-left:150px;
+	margin-top:100px; 
+
+}
+.skill .skillhover:hover{
+	transform: scale(1);
+	transition: 2s;
+	box-shadow:15px 10px 10px 0px ;
+}
+.otherskill:hover{
+	transform: scale(1);
+	transition: 2s;
+	box-shadow:15px 10px 10px 0px ;
+}
+
+
+/*Skill End*/
+
+
+
+
+/*Education Start*/
+.education{
+	
+	
+	margin-left:150px;
+	margin-top:50px; 
+
+}
+.education .eduhover:hover{
+	transform: scale(1);
+	transition: 2s;
+	box-shadow:15px 10px 10px 0px ;
+}
+/*Education End*/
+
+
+
+
+
+/*My Work Start*/
+.works{
+	margin-left:150px;
+	margin-top:60px;
+}
+.works .workshover:hover{
+	transform: scale(1);
+	transition: 2s;
+	box-shadow:15px 10px 10px 0px ;
+}
+.work1{
+	
+	width:70%;
+	height:300px;
+	border-left: solid #FD4804 4px;
+	background-color: #FCC003;
+	box-shadow:15px 10px 10px 0px ;
+
+
+}
+.work1 .work1detatils:hover{
+	transform:scale(1.5);
+	transition: 1s;
+	box-shadow:15px 10px 10px 0px ;
+}
+.work1detatils{
+	text-align: justify;
+	width: 100%;
+	height:50%;
+	border-style: solid black;
+	overflow:scroll;
+	background-color: #FCC003;
+}
+.work2{
+	width:70%;
+	height:300px;
+	border-left: solid #FD4804 5px;
+	background-color: #FCC003;
+	box-shadow:15px 10px 10px 0px ;
+	margin-top:40px;
+	
+}
+/*My Works End*/
+
+
+
+/*footer start*/
+.footer{
+	width:80%;
+	height:750px;
+	border-style:solid;
+	border-color:#F7592A;
+	background-color:#F7592A;
+	margin-left:150px;
+	margin-top:180px;
+	border-radius:0 0 50px 50px;
+	
+	
+}
+.footericon i{
+	padding:10px ;
+	color:#F7AF81;
+}
+.footericon i:hover{
+	color:white;
+}
+.navrepeat{
+	font-size:20px;
+	margin:auto;
+	margin-top:30px;
+	font-family:Segoe UI Black;
+
+	
+}
+.navrepeat a{
+	text-decoration:none;
+	color:#F7AF81;
+}
+.navrepeat a:hover{
+	
+	color:white;
+}
+
+
+.buildicon{
+	margin:auto;
+}
+.buildicon i{
+	padding:10px ;
+	color:#F7AF81;
+	margin:auto;
+}
+.lasticon i:hover{
+	color:#022340!important;
+}
